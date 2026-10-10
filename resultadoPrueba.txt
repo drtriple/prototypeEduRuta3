@@ -1,0 +1,206 @@
+======================================================================
+EDURUTA 3 - Agente predictivo de deserción (prototipo, datos ficticios)
+======================================================================
+Estudiantes analizados: 300 | Abandono histórico: 20.3%
+Calidad del modelo (AUC en datos de prueba): 0.75
+(umbral de alerta usado en esta prueba: 35 %)
+              precision    recall  f1-score   support
+
+    Continúa       0.89      0.78      0.83        60
+    Abandona       0.41      0.60      0.49        15
+
+    accuracy                           0.75        75
+   macro avg       0.65      0.69      0.66        75
+weighted avg       0.79      0.75      0.76        75
+
+Variables que más pesan en el modelo:
+ - promedio_general   18.3%
+ - promedio_p4        17.0%
+ - tendencia          14.0%
+ - peor_materia       13.6%
+ - promedio_p1        13.1%
+
+======================================================================
+Los 15 estudiantes ACTIVOS con mayor riesgo
+======================================================================
+
+EST-0269 | Salomé Manuela Uribe Vélez | grado 9-03 | estrato 1
+ Riesgo de deserción: 80% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Rendimiento académico por debajo de lo esperado (promedio 2.9); su materia más débil es Inglés (2.7)
+ • Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.7 en P4)
+ Faltas registradas: Fuga o evasión de clases, Uso del celular en clase, Daño a material del colegio
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0077 | Jhon Brayan Torres Londoño | grado 9-03 | estrato 2
+ Riesgo de deserción: 77% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 2.4 en P1 a 2.0 en P4)
+ • Rendimiento académico por debajo de lo esperado (promedio 2.2); su materia más débil es Lenguaje (1.8)
+ • Va perdiendo 5 materia(s) con promedio anual inferior a 3.0
+ Faltas registradas: Uso del celular en clase, Daño a material del colegio, Fuga o evasión de clases
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0299 | Isabella Valentina Ospina Uribe | grado 9-01 | estrato 2
+ Riesgo de deserción: 77% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.6 en P4)
+ • Rendimiento académico por debajo de lo esperado (promedio 2.9); su materia más débil es Inglés (2.6)
+ • Va perdiendo 3 materia(s) con promedio anual inferior a 3.0
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0273 | Karen Salomé López Ríos | grado 7-02 | estrato 1
+ Riesgo de deserción: 75% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 3.1 en P1 a 2.6 en P4)
+ • Rendimiento académico por debajo de lo esperado (promedio 2.9); su materia más débil es Inglés (2.6)
+ • Va perdiendo 4 materia(s) con promedio anual inferior a 3.0
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0019 | Karen Manuela Ospina García | grado 8-02 | estrato 2
+ Riesgo de deserción: 74% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 3.0 en P1 a 1.9 en P4)
+ • Rendimiento académico por debajo de lo esperado (promedio 2.4); su materia más débil es Lenguaje (2.0)
+ • Caída fuerte en Matemáticas (de 3.3 a 1.7)
+ Faltas registradas: Fuga o evasión de clases, Incumplimiento del uniforme, Agresión verbal a un compañero
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0073 | Juliana Laura López Ramírez | grado 9-03 | estrato 1
+ Riesgo de deserción: 72% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Rendimiento académico por debajo de lo esperado (promedio 3.0); su materia más débil es Matemáticas (2.6)
+ • Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.8 en P4)
+ • Va perdiendo 2 materia(s) con promedio anual inferior a 3.0
+ Faltas registradas: Incumplimiento del uniforme, Matoneo o intimidación
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0041 | Sofía Laura Zapata Duque | grado 11-02 | estrato 2
+ Riesgo de deserción: 72% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.7 en P4)
+ • Rendimiento académico por debajo de lo esperado (promedio 3.0); su materia más débil es Ciencias Naturales (2.5)
+ • Va perdiendo 2 materia(s) con promedio anual inferior a 3.0
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0231 | Daniel Julián Álvarez Mejía | grado 7-01 | estrato 1
+ Riesgo de deserción: 70% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Tiene 1 falta(s) grave(s) (Tipo III)
+ • Rendimiento académico por debajo de lo esperado (promedio 2.6); su materia más débil es Ciencias Sociales (2.3)
+ • Sus notas vienen cayendo durante el año (de 3.1 en P1 a 2.3 en P4)
+ Faltas registradas: Porte o consumo de sustancias psicoactivas, Fuga o evasión de clases, Fuga o evasión de clases
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Remisión a orientación escolar y seguimiento de convivencia
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0192 | Gabriela Daniela Salazar Muñoz | grado 8-02 | estrato 2
+ Riesgo de deserción: 70% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 3.1 en P1 a 2.3 en P4)
+ • Rendimiento académico por debajo de lo esperado (promedio 2.7); su materia más débil es Ciencias Sociales (2.5)
+ • Caída fuerte en Ciencias Naturales (de 3.4 a 2.3)
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0142 | Juan Camilo Cardona Duque | grado 10-02 | estrato 2
+ Riesgo de deserción: 67% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 3.0 en P1 a 2.6 en P4)
+ • Rendimiento académico por debajo de lo esperado (promedio 2.9); su materia más débil es Ciencias Sociales (2.4)
+ • Va perdiendo 3 materia(s) con promedio anual inferior a 3.0
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0033 | Isabella Yuliana Betancur Londoño | grado 7-01 | estrato 1
+ Riesgo de deserción: 65% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Va perdiendo 4 materia(s) con promedio anual inferior a 3.0
+ • Rendimiento académico por debajo de lo esperado (promedio 2.8); su materia más débil es Ciencias Naturales (2.4)
+ • Caída fuerte en Matemáticas (de 2.8 a 2.2)
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0243 | Sofía Yuliana Zapata Restrepo | grado 10-03 | estrato 1
+ Riesgo de deserción: 64% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Rendimiento académico por debajo de lo esperado (promedio 2.8); su materia más débil es Matemáticas (2.7)
+ • Va perdiendo 5 materia(s) con promedio anual inferior a 3.0
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0038 | Karen Sofía Muñoz Salazar | grado 9-01 | estrato 2
+ Riesgo de deserción: 64% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 2.6 en P1 a 2.1 en P4)
+ • Va perdiendo 5 materia(s) con promedio anual inferior a 3.0
+ • Rendimiento académico por debajo de lo esperado (promedio 2.4); su materia más débil es Lenguaje (2.0)
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0140 | Gabriela Camila Zapata Marín | grado 8-02 | estrato 1
+ Riesgo de deserción: 64% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 3.4 en P1 a 2.8 en P4)
+ • Rendimiento académico por debajo de lo esperado (promedio 3.1); su materia más débil es Matemáticas (2.8)
+ • Contexto socioeconómico de estrato 1, que se asocia a mayor vulnerabilidad
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Revisar programas de apoyo (alimentación, transporte, subsidios)
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+EST-0138 | Mariana Juliana Montoya Ríos | grado 11-02 | estrato 3
+ Riesgo de deserción: 63% -> nivel ALTO
+ ¿Por qué esta alerta?
+ • Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.6 en P4)
+ • Rendimiento académico por debajo de lo esperado (promedio 3.0); su materia más débil es Ciencias Naturales (2.9)
+ Acciones sugeridas:
+ → Apoyo académico / nivelación en las materias débiles
+ → Conversación con la familia / acudiente
+ → Vincular a un club o a la media técnica para fortalecer el arraigo
+
+----------------------------------------------------------------------
+Riesgo promedio por grado (todos los estudiantes):
+ Grado  6: riesgo promedio 27% | 5 en riesgo alto
+ Grado  7: riesgo promedio 29% | 5 en riesgo alto
+ Grado  8: riesgo promedio 27% | 6 en riesgo alto
+ Grado  9: riesgo promedio 30% | 7 en riesgo alto
+ Grado 10: riesgo promedio 26% | 2 en riesgo alto
+ Grado 11: riesgo promedio 28% | 3 en riesgo alto
+
+Reporte guardado en 'reporte_riesgo.json'
+Recuerda: una alerta es una invitación a acompañar, no un diagnóstico.

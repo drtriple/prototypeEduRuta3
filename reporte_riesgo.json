@@ -1,0 +1,194 @@
+[
+  {
+    "id": "EST-0269",
+    "estudiante": "Salomé Manuela Uribe Vélez",
+    "grado": 9,
+    "grupo": "03",
+    "probabilidad_riesgo": 0.805,
+    "nivel": "ALTO",
+    "motivos": [
+      "Rendimiento académico por debajo de lo esperado (promedio 2.9); su materia más débil es Inglés (2.7)",
+      "Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.7 en P4)"
+    ]
+  },
+  {
+    "id": "EST-0077",
+    "estudiante": "Jhon Brayan Torres Londoño",
+    "grado": 9,
+    "grupo": "03",
+    "probabilidad_riesgo": 0.771,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 2.4 en P1 a 2.0 en P4)",
+      "Rendimiento académico por debajo de lo esperado (promedio 2.2); su materia más débil es Lenguaje (1.8)",
+      "Va perdiendo 5 materia(s) con promedio anual inferior a 3.0"
+    ]
+  },
+  {
+    "id": "EST-0299",
+    "estudiante": "Isabella Valentina Ospina Uribe",
+    "grado": 9,
+    "grupo": "01",
+    "probabilidad_riesgo": 0.769,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.6 en P4)",
+      "Rendimiento académico por debajo de lo esperado (promedio 2.9); su materia más débil es Inglés (2.6)",
+      "Va perdiendo 3 materia(s) con promedio anual inferior a 3.0"
+    ]
+  },
+  {
+    "id": "EST-0273",
+    "estudiante": "Karen Salomé López Ríos",
+    "grado": 7,
+    "grupo": "02",
+    "probabilidad_riesgo": 0.755,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 3.1 en P1 a 2.6 en P4)",
+      "Rendimiento académico por debajo de lo esperado (promedio 2.9); su materia más débil es Inglés (2.6)",
+      "Va perdiendo 4 materia(s) con promedio anual inferior a 3.0"
+    ]
+  },
+  {
+    "id": "EST-0019",
+    "estudiante": "Karen Manuela Ospina García",
+    "grado": 8,
+    "grupo": "02",
+    "probabilidad_riesgo": 0.743,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 3.0 en P1 a 1.9 en P4)",
+      "Rendimiento académico por debajo de lo esperado (promedio 2.4); su materia más débil es Lenguaje (2.0)",
+      "Caída fuerte en Matemáticas (de 3.3 a 1.7)"
+    ]
+  },
+  {
+    "id": "EST-0073",
+    "estudiante": "Juliana Laura López Ramírez",
+    "grado": 9,
+    "grupo": "03",
+    "probabilidad_riesgo": 0.723,
+    "nivel": "ALTO",
+    "motivos": [
+      "Rendimiento académico por debajo de lo esperado (promedio 3.0); su materia más débil es Matemáticas (2.6)",
+      "Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.8 en P4)",
+      "Va perdiendo 2 materia(s) con promedio anual inferior a 3.0"
+    ]
+  },
+  {
+    "id": "EST-0041",
+    "estudiante": "Sofía Laura Zapata Duque",
+    "grado": 11,
+    "grupo": "02",
+    "probabilidad_riesgo": 0.715,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.7 en P4)",
+      "Rendimiento académico por debajo de lo esperado (promedio 3.0); su materia más débil es Ciencias Naturales (2.5)",
+      "Va perdiendo 2 materia(s) con promedio anual inferior a 3.0"
+    ]
+  },
+  {
+    "id": "EST-0231",
+    "estudiante": "Daniel Julián Álvarez Mejía",
+    "grado": 7,
+    "grupo": "01",
+    "probabilidad_riesgo": 0.704,
+    "nivel": "ALTO",
+    "motivos": [
+      "Tiene 1 falta(s) grave(s) (Tipo III)",
+      "Rendimiento académico por debajo de lo esperado (promedio 2.6); su materia más débil es Ciencias Sociales (2.3)",
+      "Sus notas vienen cayendo durante el año (de 3.1 en P1 a 2.3 en P4)"
+    ]
+  },
+  {
+    "id": "EST-0192",
+    "estudiante": "Gabriela Daniela Salazar Muñoz",
+    "grado": 8,
+    "grupo": "02",
+    "probabilidad_riesgo": 0.7,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 3.1 en P1 a 2.3 en P4)",
+      "Rendimiento académico por debajo de lo esperado (promedio 2.7); su materia más débil es Ciencias Sociales (2.5)",
+      "Caída fuerte en Ciencias Naturales (de 3.4 a 2.3)"
+    ]
+  },
+  {
+    "id": "EST-0142",
+    "estudiante": "Juan Camilo Cardona Duque",
+    "grado": 10,
+    "grupo": "02",
+    "probabilidad_riesgo": 0.669,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 3.0 en P1 a 2.6 en P4)",
+      "Rendimiento académico por debajo de lo esperado (promedio 2.9); su materia más débil es Ciencias Sociales (2.4)",
+      "Va perdiendo 3 materia(s) con promedio anual inferior a 3.0"
+    ]
+  },
+  {
+    "id": "EST-0033",
+    "estudiante": "Isabella Yuliana Betancur Londoño",
+    "grado": 7,
+    "grupo": "01",
+    "probabilidad_riesgo": 0.648,
+    "nivel": "ALTO",
+    "motivos": [
+      "Va perdiendo 4 materia(s) con promedio anual inferior a 3.0",
+      "Rendimiento académico por debajo de lo esperado (promedio 2.8); su materia más débil es Ciencias Naturales (2.4)",
+      "Caída fuerte en Matemáticas (de 2.8 a 2.2)"
+    ]
+  },
+  {
+    "id": "EST-0243",
+    "estudiante": "Sofía Yuliana Zapata Restrepo",
+    "grado": 10,
+    "grupo": "03",
+    "probabilidad_riesgo": 0.644,
+    "nivel": "ALTO",
+    "motivos": [
+      "Rendimiento académico por debajo de lo esperado (promedio 2.8); su materia más débil es Matemáticas (2.7)",
+      "Va perdiendo 5 materia(s) con promedio anual inferior a 3.0"
+    ]
+  },
+  {
+    "id": "EST-0038",
+    "estudiante": "Karen Sofía Muñoz Salazar",
+    "grado": 9,
+    "grupo": "01",
+    "probabilidad_riesgo": 0.64,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 2.6 en P1 a 2.1 en P4)",
+      "Va perdiendo 5 materia(s) con promedio anual inferior a 3.0",
+      "Rendimiento académico por debajo de lo esperado (promedio 2.4); su materia más débil es Lenguaje (2.0)"
+    ]
+  },
+  {
+    "id": "EST-0140",
+    "estudiante": "Gabriela Camila Zapata Marín",
+    "grado": 8,
+    "grupo": "02",
+    "probabilidad_riesgo": 0.637,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 3.4 en P1 a 2.8 en P4)",
+      "Rendimiento académico por debajo de lo esperado (promedio 3.1); su materia más débil es Matemáticas (2.8)",
+      "Contexto socioeconómico de estrato 1, que se asocia a mayor vulnerabilidad"
+    ]
+  },
+  {
+    "id": "EST-0138",
+    "estudiante": "Mariana Juliana Montoya Ríos",
+    "grado": 11,
+    "grupo": "02",
+    "probabilidad_riesgo": 0.628,
+    "nivel": "ALTO",
+    "motivos": [
+      "Sus notas vienen cayendo durante el año (de 3.3 en P1 a 2.6 en P4)",
+      "Rendimiento académico por debajo de lo esperado (promedio 3.0); su materia más débil es Ciencias Naturales (2.9)"
+    ]
+  }
+]
